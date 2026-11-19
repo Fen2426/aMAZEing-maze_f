@@ -83,10 +83,10 @@ def safe_savefig(fig, path, **kwargs):
 
 
 # -- configuration -----------------------------------------------------
+# C:\Users\every\Documents\dopamine recordings\FIBPHO_ANALYSIS
 
 DEFAULT_ROOT = os.environ.get("MAZE_PHOTOMETRY_DIR", os.path.join(
-    os.path.expanduser("~"), "Box", "Awake Project", "Maze data",
-    "Auditory experiments", "dopamine recordings"))
+    os.path.expanduser("~"), "Documents", "dopamine recordings"))
 TANK_FOLDER = "dopaminergic recordings"
 
 # TDT store names
